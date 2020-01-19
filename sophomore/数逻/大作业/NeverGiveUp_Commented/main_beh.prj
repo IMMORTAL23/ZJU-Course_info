@@ -1,0 +1,7 @@
+verilog work "vga.v"
+verilog work "change_speed.v"
+verilog work "bounce.v"
+verilog work "barrier.v"
+verilog work "AntiJitter.v"
+verilog work "main.v"
+verilog work "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

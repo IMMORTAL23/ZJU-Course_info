@@ -1,0 +1,18 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+ERROR:sim - Unable to find D:\the first semester of sophomore\logic and computer
+ERROR:sim -    design fundamental\project\my project\NGU\NGU\green_2.coe
+ERROR:sim -    Coregen is looking for D:\the first semester of sophomore\logic
+   and computer
+ERROR:sim -    design fundamental\project\my project\NGU\NGU\green_2.coe
+ERROR:sim - Unable to find D:\the first semester of sophomore\logic and computer
+ERROR:sim -    design fundamental\project\my project\NGU\NGU\green_2.coe
+ERROR:sim -    Coregen is looking for D:\the first semester of sophomore\logic
+   and computer
+ERROR:sim -    design fundamental\project\my project\NGU\NGU\green_2.coe
+ERROR:sim - An invalid core configuration has been detected during
+ERROR:sim -    Customization. Core parameters will be reset to their default
+   values.
+Cancelled executing Tcl generator.
+Wrote CGP file for project 'green_2'.

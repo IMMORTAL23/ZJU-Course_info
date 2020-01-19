@@ -1,0 +1,849 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+LAPTOP-G06JQFAL::  Fri Jan 11 20:40:09 2019
+
+par -w -intstyle ise -ol high -mt off main_map.ncd main.ncd main.pcf 
+
+
+Constraints file: main.pcf.
+Loading device for application Rf_Device from file '7k160t.nph' in environment D:\14.7\ISE_DS\ISE\.
+   "main" is an NCD, version 3.2, device xc7k160t, package ffg676, speed -2l
+
+Initializing temperature to 100.000 Celsius. (default - Range: 0.000 to 100.000 Celsius)
+Initializing voltage to 0.970 Volts. (default - Range: 0.970 to 1.030 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.10 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,163 out of 202,800    1%
+    Number used as Flip Flops:                 697
+    Number used as Latches:                    246
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:              220
+  Number of Slice LUTs:                      5,073 out of 101,400    5%
+    Number used as logic:                    5,063 out of 101,400    4%
+      Number using O6 output only:           4,094
+      Number using O5 output only:              55
+      Number using O5 and O6:                  914
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of  35,000    0%
+    Number used exclusively as route-thrus:     10
+      Number with same-slice register load:      1
+      Number with same-slice carry load:         9
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,417 out of  25,350    9%
+  Number of LUT Flip Flop pairs used:        5,414
+    Number with an unused Flip Flop:         4,276 out of   5,414   78%
+    Number with an unused LUT:                 341 out of   5,414    6%
+    Number of fully used LUT-FF pairs:         797 out of   5,414   14%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of 202,800    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        32 out of     400    8%
+    Number of LOCed IOBs:                       32 out of      32  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                309 out of     325   95%
+    Number using RAMB36E1 only:                309
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  3 out of     650    1%
+    Number using RAMB18E1 only:                  3
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     400    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     400    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     150    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     400    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      32    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      32    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     120    0%
+  Number of BUFRs:                               0 out of      32    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                           28 out of     600    4%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      0 out of       8    0%
+  Number of GTXE2_COMMONs:                       0 out of       2    0%
+  Number of IBUFDS_GTE2s:                        0 out of       4    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of       8    0%
+  Number of IN_FIFOs:                            0 out of      32    0%
+  Number of MMCME2_ADVs:                         0 out of       8    0%
+  Number of OUT_FIFOs:                           0 out of      32    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of       8    0%
+  Number of PHY_CONTROLs:                        0 out of       8    0%
+  Number of PLLE2_ADVs:                          0 out of       8    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 23 secs 
+Finished initial Timing Analysis.  REAL time: 23 secs 
+
+Starting Router
+
+
+Phase  1  : 91655 unrouted;      REAL time: 26 secs 
+
+Phase  2  : 40419 unrouted;      REAL time: 28 secs 
+
+Phase  3  : 11535 unrouted;      REAL time: 1 mins 23 secs 
+
+Phase  4  : 11289 unrouted; (Par is working to improve performance)     REAL time: 1 mins 31 secs 
+
+Updating file: main.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 51 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 54 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 54 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 54 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 mins 23 secs 
+Total REAL time to Router completion: 2 mins 23 secs 
+Total CPU time to Router completion: 2 mins 22 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 1292 (Setup: 1292, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.846ns|     N/A|          76
+  div<19>                                   | HOLD        |     0.004ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.731ns|     N/A|           0
+  GND_16_o_barrier_speed[3]_AND_67_o        | HOLD        |     0.818ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     4.777ns|     N/A|         123
+  div_20_BUFG                               | HOLD        |     0.220ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     1.532ns|     N/A|           0
+  GND_5_o_direction_AND_47_o                | HOLD        |     0.725ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.798ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_133_o                 | HOLD        |     0.856ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.185ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_151_o                 | HOLD        |     1.086ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.953ns|     N/A|          41
+  GND_5_o_y[8]_AND_27_o                     | HOLD        |     0.809ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.580ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_137_o                 | HOLD        |     0.733ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.963ns|     N/A|          78
+  GND_5_o_y[8]_AND_33_o                     | HOLD        |     1.103ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.843ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_403_o            | HOLD        |     0.863ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.283ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_155_o                 | HOLD        |     1.144ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     2.142ns|     N/A|           0
+  div_1_BUFG                                | HOLD        |     0.144ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.657ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_181_o                 | HOLD        |     0.791ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.744ns|     N/A|           0
+  GND_17_o_score[15]_AND_125_o              | HOLD        |     0.817ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.932ns|     N/A|          37
+  GND_17_o_height_5[6]_AND_389_o            | HOLD        |     0.954ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.846ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_405_o            | HOLD        |     0.888ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.632ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_237_o                 | HOLD        |     0.757ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.645ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_471_o         | HOLD        |     0.754ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.518ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_383_o            | HOLD        |     0.702ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.266ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_467_o           | HOLD        |     1.146ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.002ns|     N/A|           0
+  GND_17_o_score[15]_AND_119_o              | HOLD        |     0.944ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.765ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_371_o            | HOLD        |     0.837ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.438ns|     N/A|           0
+  GND_16_o_barrier_speed[3]_AND_61_o        | HOLD        |     0.666ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.721ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_429_o            | HOLD        |     0.806ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.912ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_339_o            | HOLD        |     0.898ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.238ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_189_o                 | HOLD        |     0.564ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.741ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_233_o                 | HOLD        |     0.818ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.615ns|     N/A|           0
+  GND_16_o_max_speed[3]_AND_69_o            | HOLD        |     0.749ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.575ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_251_o                 | HOLD        |     0.740ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.643ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_255_o                 | HOLD        |     0.773ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.514ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_281_o                 | HOLD        |     0.711ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.824ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_299_o                 | HOLD        |     0.869ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.726ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_425_o            | HOLD        |     0.820ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.813ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_347_o            | HOLD        |     0.855ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.968ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_449_o            | HOLD        |     0.949ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.808ns|     N/A|         165
+  GND_5_o_y[8]_AND_23_o                     | HOLD        |     0.701ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.107ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_165_o                 | HOLD        |     1.051ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.028ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_435_o            | HOLD        |     0.967ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.026ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_451_o            | HOLD        |     0.980ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.028ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_183_o                 | HOLD        |     0.972ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.993ns|     N/A|         118
+  GND_5_o_y[8]_AND_29_o                     | HOLD        |     0.864ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.045ns|     N/A|           0
+  GND_17_o_score[15]_AND_97_o               | HOLD        |     0.989ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.066ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_357_o            | HOLD        |     1.045ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.178ns|     N/A|           0
+  GND_16_o_max_speed[3]_AND_71_o            | HOLD        |     0.510ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.937ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_477_o         | HOLD        |     0.913ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.597ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_473_o         | HOLD        |     0.746ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.678ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_141_o                 | HOLD        |     0.819ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.704ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_313_o                | HOLD        |     0.850ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.926ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_207_o                 | HOLD        |     0.951ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.534ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_177_o                 | HOLD        |     0.717ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.869ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_265_o                 | HOLD        |     0.885ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.925ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_283_o                 | HOLD        |     0.918ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.157ns|     N/A|           0
+  GND_17_o_score[15]_AND_123_o              | HOLD        |     1.022ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.761ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_325_o                | HOLD        |     0.828ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.059ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_469_o         | HOLD        |     0.985ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.242ns|     N/A|           0
+  GND_16_o_barrier_speed[3]_AND_63_o        | HOLD        |     0.558ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.108ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_447_o            | HOLD        |     1.030ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.860ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_345_o            | HOLD        |     0.892ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.451ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_297_o                 | HOLD        |     0.670ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.591ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_263_o                 | HOLD        |     0.748ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.835ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_259_o                 | HOLD        |     0.873ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.622ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_375_o            | HOLD        |     0.763ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.755ns|     N/A|          46
+  GND_17_o_height_5[6]_AND_391_o            | HOLD        |     0.826ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.895ns|     N/A|           0
+  GND_5_o_y[8]_AND_31_o                     | HOLD        |     1.063ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.721ns|     N/A|           0
+  GND_5_o_y[8]_AND_37_o                     | HOLD        |     0.809ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.234ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_399_o            | HOLD        |     1.209ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.122ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_159_o                 | HOLD        |     1.049ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.071ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_231_o                 | HOLD        |     1.056ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.784ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_169_o                 | HOLD        |     0.850ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.983ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_361_o            | HOLD        |     0.994ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.038ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_377_o            | HOLD        |     0.984ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.774ns|     N/A|         113
+  GND_17_o_height_5[6]_AND_385_o            | HOLD        |     1.052ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.922ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_401_o            | HOLD        |     0.918ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.700ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_209_o                 | HOLD        |     0.971ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.765ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_311_o                | HOLD        |     0.825ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.968ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_309_o                | HOLD        |     0.959ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.197ns|     N/A|           0
+  GND_17_o_score[15]_AND_115_o              | HOLD        |     1.060ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     1.695ns|     N/A|           0
+  GND_5_o_speed[3]_AND_43_o                 | HOLD        |     0.796ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.735ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_323_o                | HOLD        |     0.840ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.747ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_193_o                 | HOLD        |     0.866ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.066ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_211_o                 | HOLD        |     0.808ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.090ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_197_o                 | HOLD        |     1.056ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.738ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_333_o            | HOLD        |     0.810ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.240ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_215_o                 | HOLD        |     0.980ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.147ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_349_o            | HOLD        |     1.071ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.278ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_241_o                 | HOLD        |     0.613ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.326ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_269_o                 | HOLD        |     0.608ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.868ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_421_o            | HOLD        |     0.873ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.843ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_335_o            | HOLD        |     0.868ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.090ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_437_o            | HOLD        |     1.009ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.310ns|     N/A|          56
+  GND_17_o_x_5[9]_AND_217_o                 | HOLD        |     0.744ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.363ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_343_o            | HOLD        |     1.211ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.244ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_363_o            | HOLD        |     1.147ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.516ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_143_o                 | HOLD        |     0.710ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.827ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_423_o            | HOLD        |     0.878ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.963ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_187_o                 | HOLD        |     0.987ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.151ns|     N/A|           0
+  GND_17_o_score[15]_AND_101_o              | HOLD        |     1.056ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.421ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_153_o                 | HOLD        |     0.649ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.485ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_145_o                 | HOLD        |     0.698ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.108ns|     N/A|           0
+  GND_16_o_max_speed[3]_AND_75_o            | HOLD        |     0.473ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.981ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_407_o            | HOLD        |     0.952ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.918ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_199_o                 | HOLD        |     0.957ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.743ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_277_o                 | HOLD        |     0.808ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.765ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_157_o                 | HOLD        |     0.884ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.800ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_171_o                 | HOLD        |     0.848ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.820ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_175_o                 | HOLD        |     0.852ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.350ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_317_o                | HOLD        |     0.625ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.637ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_225_o                 | HOLD        |     0.940ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.580ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_243_o                 | HOLD        |     0.746ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.830ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_287_o                 | HOLD        |     0.900ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.924ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_441_o            | HOLD        |     0.921ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.037ns|     N/A|           0
+  GND_17_o_score[15]_AND_103_o              | HOLD        |     1.001ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.550ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_257_o                 | HOLD        |     0.734ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.059ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_275_o                 | HOLD        |     0.981ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.313ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_301_o                 | HOLD        |     0.597ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.085ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_235_o                 | HOLD        |     0.995ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.962ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_459_o           | HOLD        |     0.977ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.176ns|     N/A|          19
+  GND_17_o_height_5[6]_AND_387_o            | HOLD        |     0.711ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.851ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_129_o                 | HOLD        |     0.930ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.525ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_411_o            | HOLD        |     0.706ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.931ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_185_o                 | HOLD        |     0.937ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.004ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_445_o            | HOLD        |     1.014ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.692ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_173_o                 | HOLD        |     0.798ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.097ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_427_o            | HOLD        |     1.002ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.352ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_373_o            | HOLD        |     0.611ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.731ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_463_o           | HOLD        |     0.827ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.521ns|     N/A|           0
+  GND_17_o_height_5[6]_AND_397_o            | HOLD        |     1.360ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.199ns|     N/A|           0
+  GND_16_o_max_speed[3]_AND_73_o            | HOLD        |     0.523ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.824ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_337_o            | HOLD        |     0.865ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.831ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_315_o                | HOLD        |     0.912ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.102ns|     N/A|           0
+  GND_17_o_score[15]_AND_111_o              | HOLD        |     1.013ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.630ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_479_o         | HOLD        |     0.757ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.802ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_327_o                | HOLD        |     0.866ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.181ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_201_o                 | HOLD        |     0.543ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.846ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_329_o            | HOLD        |     0.861ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.114ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_219_o                 | HOLD        |     0.972ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.064ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_285_o                 | HOLD        |     1.014ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.135ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_229_o                 | HOLD        |     1.051ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.706ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_303_o                 | HOLD        |     0.810ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.630ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_273_o                 | HOLD        |     0.761ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.028ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_291_o                 | HOLD        |     0.948ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.720ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_331_o            | HOLD        |     0.808ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.795ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_355_o            | HOLD        |     0.886ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.854ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_167_o                 | HOLD        |     0.924ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.560ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_415_o            | HOLD        |     0.730ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.872ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_475_o         | HOLD        |     0.915ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.849ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_147_o                 | HOLD        |     0.887ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.895ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_461_o           | HOLD        |     0.928ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.583ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_271_o                 | HOLD        |     0.736ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.658ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_249_o                 | HOLD        |     0.782ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.990ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_465_o           | HOLD        |     0.959ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.085ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_135_o                 | HOLD        |     1.040ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.922ns|     N/A|         121
+  GND_17_o_height_5[6]_AND_395_o            | HOLD        |     1.057ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.469ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_161_o                 | HOLD        |     0.688ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.310ns|     N/A|           0
+  GND_17_o_score[15]_AND_117_o              | HOLD        |     1.135ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.626ns|     N/A|           0
+  GND_17_o_x_3[9]_AND_179_o                 | HOLD        |     0.773ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.479ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_321_o                | HOLD        |     0.696ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.067ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_203_o                 | HOLD        |     1.031ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.898ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_247_o                 | HOLD        |     0.913ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m6/ | SETUP       |         N/A|     1.674ns|     N/A|           0
+  GND_16_o_barrier_speed[3]_AND_65_o        | HOLD        |     0.790ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.916ns|     N/A|           0
+  GND_17_o_score[15]_AND_107_o              | HOLD        |     0.931ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.394ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_261_o                 | HOLD        |     0.664ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.658ns|     N/A|           0
+  GND_17_o_x_8[9]_AND_279_o                 | HOLD        |     0.776ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.692ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_289_o                 | HOLD        |     0.801ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.789ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_431_o            | HOLD        |     0.849ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.009ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_433_o            | HOLD        |     0.967ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.384ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_359_o            | HOLD        |     0.639ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.042ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_455_o           | HOLD        |     1.024ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.879ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_163_o                 | HOLD        |     0.887ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.929ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_417_o            | HOLD        |     0.971ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.914ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_369_o            | HOLD        |     0.915ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.991ns|     N/A|         103
+  GND_17_o_height_5[6]_AND_393_o            | HOLD        |     1.024ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.956ns|     N/A|           0
+  GND_17_o_height_6[6]_AND_409_o            | HOLD        |     0.925ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.996ns|     N/A|           0
+  GND_17_o_x_10[9]_AND_319_o                | HOLD        |     0.980ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     1.251ns|     N/A|           0
+  GND_5_o_speed[3]_AND_39_o                 | HOLD        |     0.573ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.245ns|     N/A|           0
+  GND_17_o_score[15]_AND_121_o              | HOLD        |     1.092ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.750ns|     N/A|           0
+  GND_17_o_left_height[6]_AND_481_o         | HOLD        |     0.842ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.955ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_245_o                 | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.573ns|     N/A|           0
+  GND_17_o_height_1[6]_AND_341_o            | HOLD        |     0.730ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.919ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_307_o                 | HOLD        |     0.915ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.096ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_351_o            | HOLD        |     1.057ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.649ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_139_o                 | HOLD        |     0.782ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     1.495ns|     N/A|           0
+  GND_5_o_speed[3]_AND_45_o                 | HOLD        |     0.690ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.573ns|     N/A|           0
+  GND_17_o_height_10[6]_AND_457_o           | HOLD        |     0.732ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     1.594ns|     N/A|           0
+  GND_5_o_speed[3]_AND_41_o                 | HOLD        |     0.747ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.978ns|     N/A|           0
+  GND_17_o_x_2[9]_AND_149_o                 | HOLD        |     0.942ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.342ns|     N/A|         110
+  GND_5_o_y[8]_AND_21_o                     | HOLD        |     0.920ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.600ns|     N/A|           0
+  GND_17_o_score[15]_AND_127_o              | HOLD        |     0.754ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.916ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_195_o                 | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.237ns|     N/A|           8
+  GND_17_o_x_5[9]_AND_221_o                 | HOLD        |     1.068ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.574ns|     N/A|           0
+  GND_17_o_x_6[9]_AND_239_o                 | HOLD        |     0.744ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.604ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_293_o                 | HOLD        |     0.761ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.155ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_419_o            | HOLD        |     1.087ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.119ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_443_o            | HOLD        |     1.080ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.936ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_379_o            | HOLD        |     0.921ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.962ns|     N/A|           0
+  GND_17_o_height_7[6]_AND_413_o            | HOLD        |     0.941ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.712ns|     N/A|           0
+  GND_17_o_height_9[6]_AND_453_o            | HOLD        |     0.800ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.997ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_365_o            | HOLD        |     1.002ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.843ns|     N/A|           0
+  GND_17_o_height_4[6]_AND_381_o            | HOLD        |     0.878ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.485ns|     N/A|           0
+  GND_5_o_y[8]_AND_35_o                     | HOLD        |     0.778ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.254ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_205_o                 | HOLD        |     1.130ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.222ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_223_o                 | HOLD        |     0.869ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.686ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_267_o                 | HOLD        |     0.788ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.314ns|     N/A|           0
+  GND_17_o_height_2[6]_AND_353_o            | HOLD        |     1.164ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.166ns|     N/A|           0
+  GND_17_o_score[15]_AND_109_o              | HOLD        |     1.047ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.079ns|     N/A|           0
+  GND_17_o_x_4[9]_AND_191_o                 | HOLD        |     1.034ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m5/ | SETUP       |         N/A|     3.907ns|     N/A|          78
+  GND_5_o_y[8]_AND_25_o                     | HOLD        |     0.686ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.759ns|     N/A|           0
+  GND_17_o_height_8[6]_AND_439_o            | HOLD        |     0.823ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.000ns|     N/A|           0
+  GND_17_o_score[15]_AND_99_o               | HOLD        |     0.982ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.545ns|     N/A|           0
+  GND_17_o_x_7[9]_AND_253_o                 | HOLD        |     0.732ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.304ns|     N/A|           0
+  GND_17_o_height_3[6]_AND_367_o            | HOLD        |     1.161ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     3.283ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_213_o                 | HOLD        |     0.702ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.323ns|     N/A|           0
+  div_15_BUFG                               | HOLD        |     0.153ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.221ns|     N/A|           0
+  GND_17_o_score[15]_AND_113_o              | HOLD        |     1.071ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.614ns|     N/A|           0
+  GND_17_o_x_5[9]_AND_227_o                 | HOLD        |     1.182ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     2.126ns|     N/A|           0
+  GND_17_o_score[15]_AND_105_o              | HOLD        |     1.027ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.804ns|     N/A|           0
+  GND_17_o_x_1[9]_AND_131_o                 | HOLD        |     0.852ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.988ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_295_o                 | HOLD        |     0.947ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.864ns|     N/A|           0
+  div_0_BUFG                                | HOLD        |     0.187ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.152ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     0.236ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net m7/ | SETUP       |         N/A|     1.614ns|     N/A|           0
+  GND_17_o_x_9[9]_AND_305_o                 | HOLD        |     0.760ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+16 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 mins 28 secs 
+Total CPU time to PAR completion: 2 mins 24 secs 
+
+Peak Memory Usage:  5212 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file main.ncd
+
+
+
+PAR done!

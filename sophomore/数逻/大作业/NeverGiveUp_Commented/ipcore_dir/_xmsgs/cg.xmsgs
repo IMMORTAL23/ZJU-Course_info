@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="172" delta="new" >Generating IP...
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Unable to find D:\the first semester of sophomore\logic and computer</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   design fundamental\project\my project\NGU\NGU\green_2.coe</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   Coregen is looking for D:\the first semester of sophomore\logic and computer</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   design fundamental\project\my project\NGU\NGU\green_2.coe</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Unable to find D:\the first semester of sophomore\logic and computer</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   design fundamental\project\my project\NGU\NGU\green_2.coe</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   Coregen is looking for D:\the first semester of sophomore\logic and computer</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   design fundamental\project\my project\NGU\NGU\green_2.coe</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">An invalid core configuration has been detected during</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   Customization. Core parameters will be reset to their default values.</arg>
+</msg>
+
+</messages>
+

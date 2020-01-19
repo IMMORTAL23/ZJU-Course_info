@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">100.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">100.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">0.970</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">0.970</arg> to <arg fmt="%0.3f" index="3">1.030</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_barrier_speed[3]_AND_67_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_direction_AND_47_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_133_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_151_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_27_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_137_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_33_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_403_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_155_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_181_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_125_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_389_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_405_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_237_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_471_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_383_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_467_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_119_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_371_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_barrier_speed[3]_AND_61_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_429_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_339_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_189_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_233_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_max_speed[3]_AND_69_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_251_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_255_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_281_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_299_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_425_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">GND_1_o_GND_1_o_OR_168_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_347_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_449_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_23_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_165_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_435_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_451_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_183_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_29_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_97_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_357_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_max_speed[3]_AND_71_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_477_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_473_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_141_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_313_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_207_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_177_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_265_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_283_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_123_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_325_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_469_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_barrier_speed[3]_AND_63_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_447_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_345_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_297_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_263_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_259_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_375_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_391_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_31_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_37_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_399_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_159_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_231_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_169_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_361_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_377_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_385_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_401_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_209_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_311_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_309_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_115_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_speed[3]_AND_43_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_323_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_193_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_211_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_197_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_333_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_215_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_349_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_241_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_269_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_421_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_335_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_437_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_217_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_343_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_363_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_143_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_423_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_187_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_101_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_153_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_145_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_max_speed[3]_AND_75_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_407_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_199_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_277_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_157_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_171_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_175_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_317_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_225_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_243_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_287_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_441_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_103_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_257_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_275_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_301_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_235_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_459_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_387_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_129_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_411_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_185_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_445_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_173_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_427_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_373_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_463_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_397_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_max_speed[3]_AND_73_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_337_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_315_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_111_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_479_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_327_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_201_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_329_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_219_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_285_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_229_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_303_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_273_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_291_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_331_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_355_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_167_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_415_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_475_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_147_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_461_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_271_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_249_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_465_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_135_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_395_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_161_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_117_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_3[9]_AND_179_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_321_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_203_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_247_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m6/GND_16_o_barrier_speed[3]_AND_65_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_107_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_261_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_8[9]_AND_279_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_289_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_431_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_433_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_359_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_455_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_163_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_417_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_369_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_5[6]_AND_393_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_6[6]_AND_409_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_10[9]_AND_319_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_speed[3]_AND_39_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_121_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_left_height[6]_AND_481_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">GND_1_o_GND_1_o_OR_88_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_245_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_1[6]_AND_341_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_307_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_351_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_139_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_speed[3]_AND_45_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_10[6]_AND_457_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_speed[3]_AND_41_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_2[9]_AND_149_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_21_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_127_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_195_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_221_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_6[9]_AND_239_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_293_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_419_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_443_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_379_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_7[6]_AND_413_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_9[6]_AND_453_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_365_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_4[6]_AND_381_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_35_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_205_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_223_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_267_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_2[6]_AND_353_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_109_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_4[9]_AND_191_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m5/GND_5_o_y[8]_AND_25_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_8[6]_AND_439_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_99_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_7[9]_AND_253_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_height_3[6]_AND_367_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_213_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_113_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_5[9]_AND_227_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_score[15]_AND_105_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_1[9]_AND_131_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_295_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">m7/GND_17_o_x_9[9]_AND_305_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+</messages>
+
